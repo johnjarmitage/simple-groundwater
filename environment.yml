@@ -1,0 +1,26 @@
+name: groundwater
+channels:
+  - conda-forge
+  - pyviz
+dependencies:
+  - python>=3
+  - pip
+  - matplotlib
+  - scipy
+    # fenics
+  - fenics
+  - mshr
+    # pyvista - plotting
+  - vtk
+  - pyvista
+  - pyqt
+  - ipywidgets
+  - itkwidgets
+  - nodejs
+  - bokeh
+  - pyviz_comms
+  - panel
+    # notebooks:
+  - jupyterlab
+  - pip:
+prefix: /srv/conda
