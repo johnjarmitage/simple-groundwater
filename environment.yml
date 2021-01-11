@@ -20,7 +20,11 @@ dependencies:
   - bokeh
   - pyviz_comms
   - panel
+    # DEM manipulation
+  - gdal
+  - meshio
     # notebooks:
   - jupyterlab
   - pip:
+    - pygmsh
 prefix: /srv/conda
